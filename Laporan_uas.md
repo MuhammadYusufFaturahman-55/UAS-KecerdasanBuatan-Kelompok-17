@@ -6,6 +6,7 @@
 ### Isi:
 Anggota kelompok 17:
   1. MUHAMMAD YUSUF FATURAHMAN-2406002
+      INFORMATIKA KELAS (A)
   2. CECEP FAISAL AHMAD-2406033
      INFORMATIKA KELAS (A)
 * **Domain Proyek (Latar Belakang):**
@@ -15,7 +16,6 @@ Anggota kelompok 17:
 
 ## 2. Business Understanding
 
-### Isi:
 * **Permasalahan Dunia Nyata dan Literatur Review:**
   * **Permasalahan:** Dalam industri periklanan digital, metrik *Return on Ad Spend* (ROAS) sangatlah krusial. Permasalahan utama muncul ketika sistem penayangan iklan gagal mensegmentasi audiens (Setiawan dkk., 2023). Menyebarkan iklan kepada individu yang berada di luar target pasar (misalnya, pengguna dengan pendapatan terlalu rendah untuk produk premium) tidak hanya membuang kuota tayang, tetapi juga merusak akurasi analitik kampanye pemasaran. Tanpa ada filter berbasis data (*data-driven filter*), perusahaan kehilangan peluang untuk memaksimalkan keuntungan dari anggaran yang terbatas (Pratama dkk., 2023).
   * **Literatur Review:** Kajian literatur menunjukkan bahwa keputusan belanja daring sangat dipengaruhi oleh kesiapan finansial dan kematangan psikologis pengguna. Usia seringkali berkorelasi dengan kebutuhan spesifik, sementara tingkat pendapatan secara langsung membatasi daya beli (Ramadhan, 2023). Penggunaan model *Machine Learning* terbukti lebih unggul dibandingkan metode statistik tradisional dalam menemukan pola non-linear dari fitur-fitur demografis tersebut guna menghasilkan prediksi konversi iklan yang sangat akurat (Wijaya dkk., 2022).
@@ -37,7 +37,6 @@ Anggota kelompok 17:
 
 ## 3. Data Understanding
 
-### Isi:
 * **Sumber Data:** Dataset sekunder yang digunakan dalam proyek ini diambil dari repositori publik Kaggle dengan judul *Social Network Ads* (Diunggah oleh D4rkLucif3r). Data ini merepresentasikan catatan historis dari sebuah platform media sosial mengenai respons penggunanya terhadap kampanye iklan sebuah produk.
 
 * **Ukuran dan Format Data:**
@@ -66,7 +65,6 @@ Anggota kelompok 17:
 
 ## 4. Exploratory Data Analysis (EDA)
 
-### Isi:
 * **Visualisasi Distribusi Data:**
   * **Distribusi Numerik (`Age` dan `EstimatedSalary`):** Menggunakan grafik *Histogram* dan *Density Plot (KDE)* untuk melihat sebaran umur dan pendapatan pengguna. Visualisasi ini berguna untuk mengetahui apakah data terdistribusi secara normal atau memiliki kemiringan (*skewness*).
   * **Distribusi Kategorikal (`Gender`):** Menggunakan *Bar Chart* atau *Pie Chart* untuk melihat proporsi jumlah pengguna laki-laki dan perempuan.
@@ -89,7 +87,6 @@ Anggota kelompok 17:
 
 ## 5. Data Preparation
 
-### Isi:
 * **Pembersihan Data (Data Cleaning):**
   * **Pengecekan Nilai Kosong (Null Value):** Melakukan inspeksi terhadap dataset untuk memastikan tidak ada data yang hilang (*missing values*). Pada dataset *Social Network Ads* ini, berdasarkan pengecekan awal, data sudah dalam keadaan bersih dan tidak mengandung nilai *Null* atau *NaN* (Hidayat, 2023).
   * **Penanganan Duplikasi:** Memeriksa dan menghapus baris data yang terduplikasi (jika ada) agar model tidak mengalami bias saat proses pelatihan.
@@ -109,7 +106,6 @@ Anggota kelompok 17:
  
 ## 6. Modeling
 
-### Isi:
 * **Pendekatan Pemodelan:**
   Proyek ini menggunakan dua algoritma klasifikasi *Machine Learning* yang berbeda untuk memprediksi probabilitas pengguna membeli produk. Penggunaan dua model ini bertujuan untuk melakukan komparasi performa dan menentukan model mana yang paling optimal untuk mengenali pola pada dataset *Social Network Ads* (Wijaya dkk., 2022).
 
@@ -125,7 +121,6 @@ Anggota kelompok 17:
  
 ## 7. Evaluation
 
-### Isi:
 * **Metode Evaluasi:**
   Untuk mengukur seberapa baik kinerja model *Machine Learning* dalam memprediksi keputusan pembelian pengguna, pengujian dilakukan pada set Data Uji (*Testing Data*). Hasil prediksi model akan dibandingkan dengan label data aktual (kebenaran lapangan / *ground truth*). Alat utama yang digunakan untuk memetakan hasil prediksi ini adalah **Confusion Matrix** (Matriks Kebingungan), yang membagi hasil prediksi menjadi *True Positive* (TP), *True Negative* (TN), *False Positive* (FP), dan *False Negative* (FN) (Ramadhan, 2023).
 
@@ -153,7 +148,6 @@ Anggota kelompok 17:
 
 ## 8. Conclusion
 
-### Isi:
 * **Kesimpulan Analisis Data (EDA):**
   Berdasarkan proses eksplorasi data, terbukti bahwa fitur demografis memiliki pengaruh yang sangat kuat terhadap keputusan pembelian. Pengguna dengan usia di atas 40 tahun atau memiliki estimasi pendapatan yang tinggi (di atas $70.000) mendominasi kelas pengguna yang melakukan konversi (`Purchased = 1`) (Wijaya dkk., 2022). Fitur jenis kelamin (`Gender`) terbukti tidak memiliki korelasi yang signifikan sehingga dapat diabaikan dalam pembentukan strategi iklan utama.
 
@@ -191,7 +185,6 @@ Untuk pengembangan sistem kecerdasan buatan yang lebih tangguh (*robust*) di mas
  
 ## 10. Referensi
 
-### Isi:
   1. Ramadhan, R. (2023). Analisis Komparatif Algoritma K-Nearest Neighbors dan Naive Bayes untuk Klasifikasi Target Pemasaran pada Media Sosial. *Electronic Journal of Computer Science and Information Technology (EJECTS)*, 4(2). [Tersedia di Portal Jurnal Unda]
   2. Pratama, A. S., & dkk. (2023). Prediksi Pembelian Berdasarkan Click Through Rate Iklan Digital Menggunakan Algoritma Random Forest. *Jurnal Informatika: Jurnal Pengembangan IT*, 8(3). [Tersedia di Jurnal Teknik Unisla]
   3. Setiawan, B., & dkk. (2023). Penerapan Light Gradient Boosting Dalam Prediksi Rasio Klik Tayang. *JATI (Jurnal Mahasiswa Teknik Informatika)*, 7(1). [Tersedia di E-Journal ITN Malang]
