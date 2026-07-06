@@ -71,8 +71,12 @@ Meskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari pro
 Tahapan Kerja
 1. Eksplorasi Data (EDA): Menganalisis distribusi data, mendeteksi outlier, dan melihat korelasi antar fitur menggunakan visualisasi plot seperti Heatmap korelasi Pearson dan Scatter Plot distribusi (Hidayat, 2023).
 2. Pra-Pemrosesan Data (Data Preparation): 
-* Encoding variabel Gender menjadi numerik biner (Male = 1, Female = 0) via LabelEncoder.Feature Scaling menggunakan StandardScaler (Z-score standardisation) agar algoritma tidak bias terhadap nilai gaji yang jauh lebih besar dari usia (Hidayat, 2023).
-3.Pemisahan data menggunakan rasio acak terkontrol menjadi 75% Training Data (300 sampel) dan 25% Testing Data (100 sampel).Pemodelan AI (Modeling):K-Nearest Neighbors (KNN): Dioptimalkan untuk menemukan pola kemiripan antar pengguna secara spasial dengan parameter $K=5$ dan perhitungan jarak Euclidean Distance (Hidayat, 2023).Decision Tree Classifier: Digunakan untuk mendapatkan aturan klasifikasi yang explainable dan mudah dibaca oleh tim bisnis berbasis pencarian nilai Entropy dengan pembatasan kedalaman pohon max_depth = 4 (Wijaya dkk., 2022).Evaluasi Model: Model diukur menggunakan Confusion Matrix untuk menarik metrik Akurasi, Presisi, Recall, dan F1-Score guna memastikan tidak terjadi ketimpangan prediksi (overfitting) (Ramadhan, 2023).
+> Encoding variabel Gender menjadi numerik biner (Male = 1, Female = 0) via LabelEncoder.Feature Scaling menggunakan StandardScaler (Z-score standardisation) agar algoritma tidak bias terhadap nilai gaji yang jauh lebih besar dari usia (Hidayat, 2023).
+> Pemisahan data menggunakan rasio acak terkontrol menjadi 75% Training Data (300 sampel) dan 25% Testing Data (100 sampel).
+3. Pemodelan AI (Modeling):
+> K-Nearest Neighbors (KNN): Dioptimalkan untuk menemukan pola kemiripan antar pengguna secara spasial dengan parameter $K=5$ dan perhitungan jarak Euclidean Distance (Hidayat, 2023).
+> Decision Tree Classifier: Digunakan untuk mendapatkan aturan klasifikasi yang explainable dan mudah dibaca oleh tim bisnis berbasis pencarian nilai Entropy dengan pembatasan kedalaman pohon max_depth = 4 (Wijaya dkk., 2022).
+4. Evaluasi Model: Model diukur menggunakan Confusion Matrix untuk menarik metrik Akurasi, Presisi, Recall, dan F1-Score guna memastikan tidak terjadi ketimpangan prediksi (overfitting) (Ramadhan, 2023).
 
 💡 Hasil dan Insight UtamaMeskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari proyek ini menunjukkan bahwa:
 1. Fitur Paling Berpengaruh: Age (Usia) dan EstimatedSalary (Gaji) memiliki korelasi positif yang sangat kuat terhadap konversi pembelian (Wijaya dkk., 2022). Fitur Gender tidak memiliki pengaruh yang signifikan.
@@ -80,7 +84,6 @@ Tahapan Kerja
 3. Performa Model: Implementasi algoritma terbukti mampu memprediksi target dengan tingkat akurasi yang sangat memadai. Model K-Nearest Neighbors (KNN) keluar sebagai model terbaik dengan capaian akurasi sebesar 93.00% dan persebaran nilai F1-Score yang seimbang (Ramadhan, 2023). Sedangkan model Decision Tree memperoleh akurasi sebesar 89.00%.
 
 Rencana Pengembangan (Future Work)
-
 1. Kelebihan & Keterbatasan: KNN unggul dalam akurasi pada data non-linear berukuran kecil (Hidayat, 2023) namun lambat saat volume data masif (Ramadhan, 2023). Decision Tree sangat transparan logikanya bagi pengusaha bisnis namun rentan mengalami overfitting (Wijaya dkk., 2022).
 2. Pengembangan Fitur: Menyisipkan metrik perilaku konsumen digital seperti Click-Through Rate (CTR) dan durasi interaksi halaman (Pratama dkk., 2023).
 3. Eksplorasi Model: Menguji performa model berbasis Ensemble Learning tingkat tinggi seperti Random Forest (Pratama dkk., 2023) atau LightGBM (Setiawan dkk., 2023) untuk menangani data tabular berskala besar secara lebih optimal.
