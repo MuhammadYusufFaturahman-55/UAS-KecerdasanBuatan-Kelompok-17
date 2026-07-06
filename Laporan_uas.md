@@ -4,7 +4,10 @@
 **Analisis Prediksi Keputusan Pembelian Pengguna Media Sosial Terhadap Iklan Menggunakan Algoritma Klasifikasi Kecerdasan Buatan**
 
 ### Isi:
-* **Nama Kelompok:** [Masukkan Nama Anda / Anggota Kelompok (Maksimal 2 Orang)]
+* **Anggota kelompok 17:
+* 1. MUHAMMAD YUSUF FATURAHMAN-2406002
+  2. CECEP FAISAL AHMAD-2406033
+     INFORMATIKA KELAS (A)
 * **Domain Proyek (Latar Belakang):**
   Di era digitalisasi ekonomi saat ini, periklanan melalui media sosial (*Social Media Advertising*) telah menjadi ujung tombak strategi pemasaran bagi sebagian besar perusahaan (*Business to Consumer* / B2C). Berbeda dengan metode pemasaran konvensional, iklan digital memungkinkan penargetan audiens secara lebih terukur. Namun, tantangan utama yang dihadapi industri saat ini adalah rendahnya efisiensi konversi (*conversion rate*) jika penargetan iklan dilakukan secara serampangan. Penayangan iklan kepada audiens yang tidak memiliki daya beli atau ketertarikan akan menyebabkan pembengkakan biaya operasional dan pemborosan anggaran pemasaran (*ad-spend waste*).
   
