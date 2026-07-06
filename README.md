@@ -26,7 +26,7 @@ Repositori ini disusun sebagai pemenuhan tugas **Ujian Akhir Semester (UAS) Mata
 
 ---
 
-## 📌 Identitas Pengembang
+## 📌 Identitas Pengembang kelompok 17
 * **Nama Lengkap:** [MUHAMMAD YUSUF FATURAHMAN- 2406002]
 * **Nama Lengkap:** [CECEP FAISAL AHMAD- 2406033]
 * **Kelas:** [INFORMATIKA A]
