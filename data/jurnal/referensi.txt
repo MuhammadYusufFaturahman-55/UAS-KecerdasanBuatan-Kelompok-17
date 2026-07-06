@@ -2,20 +2,20 @@
 
 1. **Ramadhan, R. (2023).** Analisis Komparatif Algoritma K-Nearest Neighbors dan Naive Bayes untuk Klasifikasi Target Pemasaran pada Media Sosial. *Electronic Journal of Computer Science and Information Technology (EJECTS)*, 4(2).
    * **Sumber Portal:** Portal Jurnal Unda
-   * **Tautan Unduh:** [Download PDF Jurnal 1](https://jurnal.unda.ac.id/index.php/ejects/article/download/563/378) 
+   jurnal 1: https://jurnal.unda.ac.id/index.php/ejects/article/download/563/378
 
 2. **Pratama, A. S., & dkk. (2023).** Prediksi Pembelian Berdasarkan Click Through Rate Iklan Digital Menggunakan Algoritma Random Forest. *Jurnal Informatika: Jurnal Pengembangan IT*, 8(3).
    * **Sumber Portal:** Jurnal Teknik Unisla
-   * **Tautan Unduh:** [Download PDF Jurnal 2](https://jurnalteknik.unisla.ac.id/index.php/informatika/article/download/1435/810)
+   jurnal 2: https://jurnalteknik.unisla.ac.id/index.php/informatika/article/download/1435/810
 
 3. **Setiawan, B., & dkk. (2023).** Penerapan Light Gradient Boosting Dalam Prediksi Rasio Klik Tayang. *JATI (Jurnal Mahasiswa Teknik Informatika)*, 7(1).
    * **Sumber Portal:** E-Journal ITN Malang
-   * **Tautan Unduh:** [Download PDF Jurnal 3](https://ejournal.itn.ac.id/index.php/jati/article/download/6010/3544)
+  jurnal 3: https://ejournal.itn.ac.id/index.php/jati/article/download/6010/3544
 
 4. **Wijaya, K., & dkk. (2022).** Analisis Data Mining Strategi Digital Marketing terhadap Keputusan Pembelian Menggunakan Algoritma Decision Tree. *JIKO (Jurnal Informatika dan Komputer)*, 6(2).
    * **Sumber Portal:** E-Journal UTDI / Akakom
-   * **Tautan Unduh:** [Download PDF Jurnal 4](https://ejournal.akakom.ac.id/index.php/jiko/article/download/1910/pdf)
+ jurnal 4: https://ejournal.akakom.ac.id/index.php/jiko/article/download/1910/pdf
 
 5. **Hidayat, T. (2023).** Prediksi Produk Penjualan dengan Metode Algoritma K-Nearest Neighbors (KNN). *Jurnal Ilmiah Teknologi dan Informasi (JITI)*, 2(1).
    * **Sumber Portal:** Alims Publishing
-   * **Tautan Unduh:** [Download PDF Jurnal 5](https://jurnal.alimspublishing.co.id/index.php/JITI/article/download/1056/817)
+jurnal 5: https://jurnal.alimspublishing.co.id/index.php/JITI/article/download/1056/817)
