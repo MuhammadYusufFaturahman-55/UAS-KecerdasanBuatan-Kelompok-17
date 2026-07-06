@@ -4,8 +4,8 @@
 **Analisis Prediksi Keputusan Pembelian Pengguna Media Sosial Terhadap Iklan Menggunakan Algoritma Klasifikasi Kecerdasan Buatan**
 
 ### Isi:
-* **Anggota kelompok 17:
-* 1. MUHAMMAD YUSUF FATURAHMAN-2406002
+Anggota kelompok 17:
+  1. MUHAMMAD YUSUF FATURAHMAN-2406002
   2. CECEP FAISAL AHMAD-2406033
      INFORMATIKA KELAS (A)
 * **Domain Proyek (Latar Belakang):**
