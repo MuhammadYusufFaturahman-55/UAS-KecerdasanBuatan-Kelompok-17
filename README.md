@@ -68,7 +68,8 @@ Meskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari pro
 2. **Karakteristik Pembeli Utama:** Pengguna dengan usia di atas 40 tahun atau memiliki gaji di atas $70.000 mendominasi kelas "Membeli".
 3. **Performa Model:** Implementasi algoritma terbukti mampu memprediksi target dengan tingkat akurasi yang memadai (di atas 85%), menjadikannya sangat layak untuk diintegrasikan sebagai filter otomatis pada sistem *Ad-Manager*.
 
-1. Tahapan KerjaEksplorasi Data (EDA): Menganalisis distribusi data, mendeteksi outlier, dan melihat korelasi antar fitur menggunakan visualisasi plot seperti Heatmap korelasi Pearson dan Scatter Plot distribusi (Hidayat, 2023).
+Tahapan Kerja
+1. Eksplorasi Data (EDA): Menganalisis distribusi data, mendeteksi outlier, dan melihat korelasi antar fitur menggunakan visualisasi plot seperti Heatmap korelasi Pearson dan Scatter Plot distribusi (Hidayat, 2023).
 2. Pra-Pemrosesan Data (Data Preparation): 
 * Encoding variabel Gender menjadi numerik biner (Male = 1, Female = 0) via LabelEncoder.Feature Scaling menggunakan StandardScaler (Z-score standardisation) agar algoritma tidak bias terhadap nilai gaji yang jauh lebih besar dari usia (Hidayat, 2023).
 3.Pemisahan data menggunakan rasio acak terkontrol menjadi 75% Training Data (300 sampel) dan 25% Testing Data (100 sampel).Pemodelan AI (Modeling):K-Nearest Neighbors (KNN): Dioptimalkan untuk menemukan pola kemiripan antar pengguna secara spasial dengan parameter $K=5$ dan perhitungan jarak Euclidean Distance (Hidayat, 2023).Decision Tree Classifier: Digunakan untuk mendapatkan aturan klasifikasi yang explainable dan mudah dibaca oleh tim bisnis berbasis pencarian nilai Entropy dengan pembatasan kedalaman pohon max_depth = 4 (Wijaya dkk., 2022).Evaluasi Model: Model diukur menggunakan Confusion Matrix untuk menarik metrik Akurasi, Presisi, Recall, dan F1-Score guna memastikan tidak terjadi ketimpangan prediksi (overfitting) (Ramadhan, 2023).
@@ -77,23 +78,6 @@ Meskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari pro
 1. Fitur Paling Berpengaruh: Age (Usia) dan EstimatedSalary (Gaji) memiliki korelasi positif yang sangat kuat terhadap konversi pembelian (Wijaya dkk., 2022). Fitur Gender tidak memiliki pengaruh yang signifikan.
 2. Karakteristik Pembeli Utama (Sweet Spot): Pengguna dengan usia di atas 40 tahun atau memiliki gaji di atas $70.000 mendominasi kelas "Membeli". Segmen ini merupakan target pasar paling potensial untuk menekan ad-spend waste.
 3. Performa Model: Implementasi algoritma terbukti mampu memprediksi target dengan tingkat akurasi yang sangat memadai. Model K-Nearest Neighbors (KNN) keluar sebagai model terbaik dengan capaian akurasi sebesar 93.00% dan persebaran nilai F1-Score yang seimbang (Ramadhan, 2023). Sedangkan model Decision Tree memperoleh akurasi sebesar 89.00%.
-
-Struktur Repositori
-
-Berikut adalah susunan arsitektur berkas proyek yang diimplementasikan pada repositori ini:
-UAS-KecerdasanBuatan-Kelompok-17/
-├── README.md              (Halaman Utama / Dokumentasi Ringkasan Proyek)
-├── Laporan_uas.md         (Dokumen Laporan Akademik Lengkap Bab 1-10)
-├── uas_model.ipynb        (Source Code Python / Notebook Google Colab)
-└── data/
-    ├── dataset/
-    │   └── Social_Network_Ads.csv (Berkas Data Tabular Format CSV)
-    └── Jurnal/
-        ├── Jurnal_Ramadhan_2023.pdf  (Berkas PDF Jurnal Rujukan 1)
-        ├── Jurnal_Pratama_2023.pdf   (Berkas PDF Jurnal Rujukan 2)
-        ├── Jurnal_Setiawan_2023.pdf  (Berkas PDF Jurnal Rujukan 3)
-        ├── Jurnal_Wijaya_2022.pdf     (Berkas PDF Jurnal Rujukan 4)
-        └── Jurnal_Hidayat_2023.pdf    (Berkas PDF Jurnal Rujukan 5)
 
 Rencana Pengembangan (Future Work)
 
