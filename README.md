@@ -68,7 +68,15 @@ Meskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari pro
 2. **Karakteristik Pembeli Utama:** Pengguna dengan usia di atas 40 tahun atau memiliki gaji di atas $70.000 mendominasi kelas "Membeli".
 3. **Performa Model:** Implementasi algoritma terbukti mampu memprediksi target dengan tingkat akurasi yang memadai (di atas 85%), menjadikannya sangat layak untuk diintegrasikan sebagai filter otomatis pada sistem *Ad-Manager*.
 
-Tahapan KerjaEksplorasi Data (EDA): Menganalisis distribusi data, mendeteksi outlier, dan melihat korelasi antar fitur menggunakan visualisasi plot seperti Heatmap korelasi Pearson dan Scatter Plot distribusi (Hidayat, 2023).Pra-Pemrosesan Data (Data Preparation): * Encoding variabel Gender menjadi numerik biner (Male = 1, Female = 0) via LabelEncoder.Feature Scaling menggunakan StandardScaler (Z-score standardisation) agar algoritma tidak bias terhadap nilai gaji yang jauh lebih besar dari usia (Hidayat, 2023).Pemisahan data menggunakan rasio acak terkontrol menjadi 75% Training Data (300 sampel) dan 25% Testing Data (100 sampel).Pemodelan AI (Modeling):K-Nearest Neighbors (KNN): Dioptimalkan untuk menemukan pola kemiripan antar pengguna secara spasial dengan parameter $K=5$ dan perhitungan jarak Euclidean Distance (Hidayat, 2023).Decision Tree Classifier: Digunakan untuk mendapatkan aturan klasifikasi yang explainable dan mudah dibaca oleh tim bisnis berbasis pencarian nilai Entropy dengan pembatasan kedalaman pohon max_depth = 4 (Wijaya dkk., 2022).Evaluasi Model: Model diukur menggunakan Confusion Matrix untuk menarik metrik Akurasi, Presisi, Recall, dan F1-Score guna memastikan tidak terjadi ketimpangan prediksi (overfitting) (Ramadhan, 2023).💡 Hasil dan Insight UtamaMeskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari proyek ini menunjukkan bahwa:Fitur Paling Berpengaruh: Age (Usia) dan EstimatedSalary (Gaji) memiliki korelasi positif yang sangat kuat terhadap konversi pembelian (Wijaya dkk., 2022). Fitur Gender tidak memiliki pengaruh yang signifikan.Karakteristik Pembeli Utama (Sweet Spot): Pengguna dengan usia di atas 40 tahun atau memiliki gaji di atas $70.000 mendominasi kelas "Membeli". Segmen ini merupakan target pasar paling potensial untuk menekan ad-spend waste.Performa Model: Implementasi algoritma terbukti mampu memprediksi target dengan tingkat akurasi yang sangat memadai. Model K-Nearest Neighbors (KNN) keluar sebagai model terbaik dengan capaian akurasi sebesar 93.00% dan persebaran nilai F1-Score yang seimbang (Ramadhan, 2023). Sedangkan model Decision Tree memperoleh akurasi sebesar 89.00%.
+1. Tahapan KerjaEksplorasi Data (EDA): Menganalisis distribusi data, mendeteksi outlier, dan melihat korelasi antar fitur menggunakan visualisasi plot seperti Heatmap korelasi Pearson dan Scatter Plot distribusi (Hidayat, 2023).
+2. Pra-Pemrosesan Data (Data Preparation): 
+* Encoding variabel Gender menjadi numerik biner (Male = 1, Female = 0) via LabelEncoder.Feature Scaling menggunakan StandardScaler (Z-score standardisation) agar algoritma tidak bias terhadap nilai gaji yang jauh lebih besar dari usia (Hidayat, 2023).
+3.Pemisahan data menggunakan rasio acak terkontrol menjadi 75% Training Data (300 sampel) dan 25% Testing Data (100 sampel).Pemodelan AI (Modeling):K-Nearest Neighbors (KNN): Dioptimalkan untuk menemukan pola kemiripan antar pengguna secara spasial dengan parameter $K=5$ dan perhitungan jarak Euclidean Distance (Hidayat, 2023).Decision Tree Classifier: Digunakan untuk mendapatkan aturan klasifikasi yang explainable dan mudah dibaca oleh tim bisnis berbasis pencarian nilai Entropy dengan pembatasan kedalaman pohon max_depth = 4 (Wijaya dkk., 2022).Evaluasi Model: Model diukur menggunakan Confusion Matrix untuk menarik metrik Akurasi, Presisi, Recall, dan F1-Score guna memastikan tidak terjadi ketimpangan prediksi (overfitting) (Ramadhan, 2023).
+
+💡 Hasil dan Insight UtamaMeskipun hasil komprehensif tertulis pada laporan lengkap, temuan utama dari proyek ini menunjukkan bahwa:
+1. Fitur Paling Berpengaruh: Age (Usia) dan EstimatedSalary (Gaji) memiliki korelasi positif yang sangat kuat terhadap konversi pembelian (Wijaya dkk., 2022). Fitur Gender tidak memiliki pengaruh yang signifikan.
+2. Karakteristik Pembeli Utama (Sweet Spot): Pengguna dengan usia di atas 40 tahun atau memiliki gaji di atas $70.000 mendominasi kelas "Membeli". Segmen ini merupakan target pasar paling potensial untuk menekan ad-spend waste.
+3. Performa Model: Implementasi algoritma terbukti mampu memprediksi target dengan tingkat akurasi yang sangat memadai. Model K-Nearest Neighbors (KNN) keluar sebagai model terbaik dengan capaian akurasi sebesar 93.00% dan persebaran nilai F1-Score yang seimbang (Ramadhan, 2023). Sedangkan model Decision Tree memperoleh akurasi sebesar 89.00%.
 
 Struktur Repositori
 
@@ -87,5 +95,16 @@ UAS-KecerdasanBuatan-Kelompok-17/
         ├── Jurnal_Wijaya_2022.pdf     (Berkas PDF Jurnal Rujukan 4)
         └── Jurnal_Hidayat_2023.pdf    (Berkas PDF Jurnal Rujukan 5)
 
+Rencana Pengembangan (Future Work)
 
+1. Kelebihan & Keterbatasan: KNN unggul dalam akurasi pada data non-linear berukuran kecil (Hidayat, 2023) namun lambat saat volume data masif (Ramadhan, 2023). Decision Tree sangat transparan logikanya bagi pengusaha bisnis namun rentan mengalami overfitting (Wijaya dkk., 2022).
+2. Pengembangan Fitur: Menyisipkan metrik perilaku konsumen digital seperti Click-Through Rate (CTR) dan durasi interaksi halaman (Pratama dkk., 2023).
+3. Eksplorasi Model: Menguji performa model berbasis Ensemble Learning tingkat tinggi seperti Random Forest (Pratama dkk., 2023) atau LightGBM (Setiawan dkk., 2023) untuk menangani data tabular berskala besar secara lebih optimal.
+
+Referensi Ilmiah
+   1. Ramadhan, R. (2023). Analisis Komparatif Algoritma K-Nearest Neighbors dan Naive Bayes untuk Klasifikasi Target Pemasaran pada Media Sosial. Electronic Journal of Computer Science and Information Technology (EJECTS), 4(2).
+   2. Pratama, A. S., & dkk. (2023). Prediksi Pembelian Berdasarkan Click Through Rate Iklan Digital Menggunakan Algoritma Random Forest. Jurnal Informatika: Jurnal Pengembangan IT, 8(3).
+   3. Setiawan, B., & dkk. (2023). Penerapan Light Gradient Boosting Dalam Prediksi Rasio Klik Tayang. JATI (Jurnal Mahasiswa Teknik Informatika), 7(1).
+   4. Wijaya, K., & dkk. (2022). Analisis Data Mining Strategi Digital Marketing terhadap Keputusan Pembelian Menggunakan Algoritma Decision Tree. JIKO (Jurnal Informatika dan Komputer), 6(2).
+   5. Hidayat, T. (2023). Prediksi Produk Penjualan dengan Metode Algoritma K-Nearest Neighbors (KNN). Jurnal Ilmiah Teknologi dan Informasi (JITI), 2(1).
 
