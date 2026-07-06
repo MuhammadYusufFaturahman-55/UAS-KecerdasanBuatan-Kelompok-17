@@ -167,12 +167,11 @@
 ## 9. Referensi
 
 ### Isi:
-* **Daftar Jurnal Ilmiah (Gaya APA - Asli & Valid dengan Tautan):**
-  1. Ramadhan, R. (2023). Analisis Komparatif Algoritma K-Nearest Neighbors dan Naive Bayes untuk Klasifikasi Target Pemasaran pada Media Sosial. *Electronic Journal of Computer Science and Information Technology (EJECTS)*, 4(2). [Tersedia di Portal Jurnal Unda](https://jurnal.unda.ac.id/index.php/ejects/article/view/563)
-  2. Pratama, A. S., & dkk. (2023). Prediksi Pembelian Berdasarkan Click Through Rate Iklan Digital Menggunakan Algoritma Random Forest. *Jurnal Informatika: Jurnal Pengembangan IT*, 8(3). [Tersedia di Jurnal Teknik Unisla](https://jurnalteknik.unisla.ac.id/index.php/informatika/article/view/1435)
-  3. Setiawan, B., & dkk. (2023). Penerapan Light Gradient Boosting Dalam Prediksi Rasio Klik Tayang. *JATI (Jurnal Mahasiswa Teknik Informatika)*, 7(1). [Tersedia di E-Journal ITN Malang](https://ejournal.itn.ac.id/index.php/jati/article/view/6010)
-  4. Wijaya, K., & dkk. (2022). Analisis Data Mining Strategi Digital Marketing terhadap Keputusan Pembelian Menggunakan Algoritma Decision Tree. *JIKO (Jurnal Informatika dan Komputer)*, 6(2). [Tersedia di E-Journal UTDI/Akakom](https://ejournal.akakom.ac.id/index.php/jiko/article/view/1910)
-  5. Hidayat, T. (2023). Prediksi Produk Penjualan dengan Metode Algoritma K-Nearest Neighbors (KNN). *Jurnal Ilmiah Teknologi dan Informasi (JITI)*, 2(1). [Tersedia di Alims Publishing](https://jurnal.alimspublishing.co.id/index.php/JITI/article/view/1056)
+  1. Ramadhan, R. (2023). Analisis Komparatif Algoritma K-Nearest Neighbors dan Naive Bayes untuk Klasifikasi Target Pemasaran pada Media Sosial. *Electronic Journal of Computer Science and Information Technology (EJECTS)*, 4(2). [Tersedia di Portal Jurnal Unda]
+  2. Pratama, A. S., & dkk. (2023). Prediksi Pembelian Berdasarkan Click Through Rate Iklan Digital Menggunakan Algoritma Random Forest. *Jurnal Informatika: Jurnal Pengembangan IT*, 8(3). [Tersedia di Jurnal Teknik Unisla]
+  3. Setiawan, B., & dkk. (2023). Penerapan Light Gradient Boosting Dalam Prediksi Rasio Klik Tayang. *JATI (Jurnal Mahasiswa Teknik Informatika)*, 7(1). [Tersedia di E-Journal ITN Malang]
+  4. Wijaya, K., & dkk. (2022). Analisis Data Mining Strategi Digital Marketing terhadap Keputusan Pembelian Menggunakan Algoritma Decision Tree. *JIKO (Jurnal Informatika dan Komputer)*, 6(2). [Tersedia di E-Journal UTDI/Akakom]
+  5. Hidayat, T. (2023). Prediksi Produk Penjualan dengan Metode Algoritma K-Nearest Neighbors (KNN). *Jurnal Ilmiah Teknologi dan Informasi (JITI)*, 2(1). [Tersedia di Alims Publishing]
 
 
  
