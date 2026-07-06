@@ -167,7 +167,29 @@ Anggota kelompok 17:
   2. **Fokus pada *Sweet Spot*:** Mengalokasikan mayoritas anggaran iklan kepada target audiens berusia matang dengan pendapatan menengah ke atas, karena model memprediksi kelompok ini memiliki probabilitas *closing* (pembelian) tertinggi.
   3. **Otomatisasi Segmentasi:** Menggunakan model ini sebagai sistem *filter* otomatis sebelum kampanye iklan baru diluncurkan.
  
-## 9. Referensi
+## 9. Kesimpulan dan Rekomendasi
+
+### 8.1. Ringkasan Hasil Modeling dan Evaluasi
+Berdasarkan eksperimen yang telah dilakukan terhadap dataset *Social Network Ads*, kedua algoritma klasifikasi yang diuji coba berhasil memberikan performa yang sangat baik. Melalui metrik evaluasi, model **K-Nearest Neighbors (KNN)** terbukti menghasilkan nilai Akurasi (*Accuracy*) dan *F1-Score* yang lebih tinggi serta lebih seimbang dibandingkan dengan model **Decision Tree**. KNN mampu mengelompokkan karakteristik demografis pelanggan (Usia dan Estimasi Gaji) secara optimal setelah melalui tahapan normalisasi data menggunakan *StandardScaler*.
+
+### 8.2. Ketercapaian Tujuan Proyek
+Tujuan utama proyek untuk membangun sistem prediksi keputusan pembelian media sosial ads ini **Berhasil Tercapai 100%**. Model Machine Learning yang dikembangkan mampu menyaring audiens potensial (`Purchased = 1`) secara akurat. Dengan diimplementasikannya model ini, tim *Digital Marketing* perusahaan dapat menargetkan kampanye iklan hanya kepada audiens yang memiliki probabilitas konversi tinggi, sehingga dapat menekan biaya operasional periklanan secara signifikan.
+
+### 8.3. Kelebihan dan Keterbatasan Model
+* **Model K-Nearest Neighbors (KNN):**
+  * **Kelebihan:** Sangat akurat dalam membaca pola spasial non-linear pada data tabular berskala kecil-menengah, serta tidak memerlukan proses *training* yang lama.
+  * **Keterbatasan:** Bersifat *lazy learner* yang sangat bergantung pada komputasi jarak (Euclidean). Jika di masa depan data bertambah hingga jutaan baris, performa komputasinya akan melambat.
+* **Model Decision Tree:**
+  * **Kelebihan:** Memiliki tingkat transparansi logika (*explainability*) yang sangat tinggi berkat representasi pohon keputusan, sehingga mudah dipahami oleh pemangku kebijakan bisnis.
+  * **Keterbatasan:** Rentan mengalami *overfitting* jika pohon dibiarkan tumbuh terlalu dalam (*max_depth* terlalu tinggi) dan sensitif terhadap variasi kecil pada data latih.
+
+### 8.4. Rekomendasi Perbaikan Masa Depan
+Untuk pengembangan sistem kecerdasan buatan yang lebih tangguh (*robust*) di masa mendatang, berikut adalah beberapa rekomendasi yang dapat diimplementasikan:
+1. **Skalabilitas dan Volume Data:** Melakukan ekspansi dataset dengan mengumpulkan data historis kampanye iklan yang lebih masif (misalnya data dalam rentang waktu 1–2 tahun terakhir) untuk memperkaya variasi data latih.
+2. **Rekayasa Fitur (*Feature Engineering*):** Menambahkan fitur-fitur baru yang relevan dengan perilaku digital pengguna, seperti *waktu aktif di media sosial*, *riwayat klik iklan (CTR)*, *jenis perangkat yang digunakan*, serta *kategori minat/hobi*.
+3. **Eksperimen Algoritma Lanjutan:** Mencoba algoritma berbasis *Ensemble Learning* seperti *Random Forest*, *Gradient Boosting*, atau *XGBoost* yang dikenal sangat tangguh untuk data tabular tanpa memerlukan standardisasi skala fitur yang ketat.
+ 
+## 10. Referensi
 
 ### Isi:
   1. Ramadhan, R. (2023). Analisis Komparatif Algoritma K-Nearest Neighbors dan Naive Bayes untuk Klasifikasi Target Pemasaran pada Media Sosial. *Electronic Journal of Computer Science and Information Technology (EJECTS)*, 4(2). [Tersedia di Portal Jurnal Unda]
