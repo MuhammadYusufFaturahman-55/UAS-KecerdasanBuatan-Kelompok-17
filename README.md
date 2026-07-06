@@ -27,11 +27,11 @@ Repositori ini disusun sebagai pemenuhan tugas **Ujian Akhir Semester (UAS) Mata
 ---
 
 ## 📌 Identitas Pengembang
-* **Nama Lengkap:** [Masukkan Nama Anda]
-* **NIM:** [Masukkan NIM Anda]
-* **Kelas:** [Masukkan Kelas Anda]
-* **Program Studi:** [Masukkan Prodi Anda, misal: Teknik Informatika]
-* **Dosen Pengampu:** [Masukkan Nama Dosen Anda]
+* **Nama Lengkap:** [MUHAMMAD YUSUF FATURAHMAN- 2406002]
+* * **Nama Lengkap:** [CECEP FAISAL AHMAD- 2406033]
+* **Kelas:** [INFORMATIKA A]
+* **Program Studi:** [Teknik Informatika]
+* **Dosen Pengampu:** [Leni Fitriani, ST. M.Kom.]
 
 ---
 
